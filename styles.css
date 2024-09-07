@@ -1,0 +1,103 @@
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f0f0f0; */
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin: 0% 20%;
+    padding: 5% 0;
+    border: 0;
+}
+
+/* Profile Div */
+.profile {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    column-gap: 0px;
+    align-items: center;
+    /* padding: 60px 20px; */
+    background-color: #fff;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    margin-right: 20px;
+    box-shadow: none;
+}
+
+/* Profile Photo Styling */
+.profile-photo {
+    width: 60%;
+    border-radius: 50%;
+}
+
+/* Content Div */
+.content {
+    width: 70%;
+    background-color: #fff;
+    /* padding: 60px 20px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    box-shadow: none;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Heading and Paragraph Styles */
+h1 {
+    font-size: 1.75em;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 2px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Social Links with Icons */
+.social-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #0077b5;
+    text-decoration: none;
+}
+
+.social-links a i {
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+/* Hover effect for social links */
+.social-links a:hover {
+    color: #005582;
+}
